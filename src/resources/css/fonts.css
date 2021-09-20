@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MaterialIcons.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "nebula_icon";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nebula_icon.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  color: #5C677D;
+  border: none;
+  background: transparent;
+}
+
+.nebula-icons {
+  font-family: "nebula_icon";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  color: #FFFFFF;
+  border: none;
+  background: transparent;
+  margin: 5px 5px 5px 0px;
+}
+
+/* icon content */
+
+.navigate_before-nbicon:before {
+  content: '\e1013';
+}
+
+.filter_list-nbicon:before {
+  content: '\e1012';
+}
+
+.notifications-nbicon:before {
+  content: '\e1016';
+}
+
+.more_vert-nbicon:before {
+  content: '\e1006';
+}
+
+.date_range-nbicon:before {
+  content: '\e1004';
+}
+
+.phone-nbicon:before {
+  content: '\e1005';
+}
+
+.close-nbicon:before {
+  content: '\e1008';
+}
+
+/*---- UCD FILES*/
+
+[class^="neb-"], [class*=" neb-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nebula_icon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.neb-arrowdown:before {
+  content: "\e1001";
+  color: #979dac;
+}
+
+.neb-arrowleft_blue:before {
+  content: "\e1002";
+  color: #0073e6;
+}
+
+.neb-arrowright_small:before {
+  content: "\e1003";
+  color: #5c677d;
+}
+
+.neb-calendar:before {
+  content: "\e1004";
+  color: #5c677d;
+}
+
+.neb-call:before {
+  content: "\e1005";
+  color: #0073e6;
+}
+
+.neb-cardmenu:before {
+  content: "\e1006";
+  color: #5c677d;
+}
+
+.neb-clock:before {
+  content: "\e1007";
+  color: #5c677d;
+}
+
+.neb-close_rect:before {
+  content: "\e1008";
+  color: #5c677d;
+}
+
+.neb-collapse:before {
+  content: "\e1009";
+  color: #0073e6;
+}
+
+.neb-download:before {
+  content: "\e100a";
+  color: #5c677d;
+}
+
+.neb-downarrow:before {
+  content: "\e100b";
+  color: #5c677d;
+}
+
+.neb-equipmentlocation:before {
+  content: "\e100c";
+  color: #0073e6;
+}
+
+.neb-expand:before {
+  content: "\e100d";
+  color: #0073e6;
+}
+
+.neb-fab_add:before {
+  content: "\e100e";
+  color: #0073e6;
+}
+
+.neb-fab_attachment:before {
+  content: "\e100f";
+  color: #0073e6;
+}
+
+.neb-fab_close:before {
+  content: "\e1010";
+  color: #5c677d;
+}
+
+.neb-fab_photo:before {
+  content: "\e1011";
+  color: #0073e6;
+}
+
+.neb-filter_off:before {
+  content: "\e1012";
+  color: #5c677d;
+}
+
+.neb-leftmedium:before {
+  content: "\e1013";
+  color: #5c677d;
+}
+
+.neb-location:before {
+  content: "\e1014";
+  color: #5c677d;
+}
+
+.neb-location_blue:before {
+  content: "\e1015";
+  color: #0073e6;
+}
+
+.neb-notify_off:before {
+  content: "\e1016";
+  color: #5c677d;
+}
+
+.neb-printer:before {
+  content: "\e1017";
+  color: #5c677d;
+}
+
+.neb-scan:before {
+  content: "\e1018";
+  color: #5c677d;
+}
+
+.neb-search:before {
+  content: "\e1019";
+  color: #ffc600;
+}
+
+.neb-authorized:before {
+  content: "\e101a";
+  color: #1bc54e;
+}
+
+.neb-cancelled:before {
+  content: "\e101b";
+  color: #e01e37;
+}
+
+.neb-close:before {
+  content: "\e101c";
+  color: #7d8597;
+}
+
+.neb-created:before {
+  content: "\e101d";
+  color: #0073e6;
+}
+
+.neb-forward:before {
+  content: "\e101e";
+  color: #8773ff;
+}
+
+.neb-modified:before {
+  content: "\e101f";
+  color: #0353a4;
+}
+
+.neb-reject:before {
+  content: "\e1020";
+  color: #ff5c00;
+}
+
+.neb-reversed:before {
+  content: "\e1021";
+  color: #dd9200;
+}
+
+.neb-tick:before {
+  content: "\e1022";
+  color: #ffc600;
+}
+
+.neb-invent_discrepancy:before {
+  content: "\e1023";
+  color: #ffc600;
+}
+
+.neb-invent_operations:before {
+  content: "\e1024";
+  color: #ffc600;
+}
+
+.neb-approve_anywhere:before {
+  content: "\e1025";
+  color: #ffc600;
+}
+
+.neb-overview:before {
+  content: "\e1026";
+  color: #33415c;
+}
+
+.neb-timeline:before {
+  content: "\e1027";
+  color: #979dac;
+}
+
+.neb-document_list:before {
+  content: "\e1028";
+  color: #979dac;
+}
+
+.neb-file_attach:before {
+  content: "\e1029";
+  color: #979dac;
+}
+
+.neb-logout:before {
+  content: "\e102a";
+  color: #FF3333;
+}
+
+.neb-hammenu_in:before {
+  content: "\e102b";
+  color: #130CB7;
+}
+
+.neb-hammenu_out:before {
+  content: "\e102c";
+  color: #130CB7;
+}
+
+.neb-uparrow:before {
+  content: "\e102d";
+  color: #5c677d;
+}

@@ -1,0 +1,373 @@
+.wrkreqsum-titlestatus{
+    border: 2px solid rgba(0, 115, 230, 0.1);
+    border-radius: 4px;
+    color:white;
+    padding: 3px;
+}
+
+.wrkreqsum-tabbar{
+ background: #FFFFFF;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wrkreqsum-tab.x-tab.x-has-text .x-inner-el{
+    padding: 10px;
+}
+
+.wrkreqsum-tab.x-tab.x-active .x-active-indicator-el {
+    background: #0073E6;
+}
+
+.wrkreqsum-tab.x-tab .x-icon-el:before{
+    font-size: 22px;
+}
+
+.wrkreqsum-tab .x-inner-el {
+    background: #FFFFFF;
+    color:#979DAC;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.wrkreqsum-tab.x-active .x-inner-el {
+    color:#33415C;
+    background-color: transparent;
+}
+
+.wrkreqsum-tab .x-inner-el .x-body-el{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrkreqsum-tab .x-inner-el .x-icon-el{
+    margin: 10px;
+    color: #979DAC;
+}
+
+.wrkreqsum-tab.x-active .x-inner-el .x-icon-el{
+    color: #33415C;
+}
+
+.wrkreqsum-outercontainer{
+    background:#E7F3FF;
+}
+
+.wrkreqsum-innercontainer{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px lightgrey;
+    margin: 10px;
+}
+
+.wrkreqsum-cardphone .x-inner-el {
+    padding: 0px;
+}
+
+.wrkreqsum-cardphone .x-body-el .phone-nbicon{
+  width: 50px;
+  height: 20px;
+}
+
+.wrkreqsum-cardphone.x-button .x-icon-el:before {
+  font-size: 28px;
+}
+
+.wrksum_btmsec{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 4px rgb(0 0 0 / 5%);
+    z-index: 10;
+}
+
+.wrkreqsum-overviewtext .x-body-el{
+    border: 0px;    
+    padding: 0px 0px 0px 5px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+.wrkreqsum-overviewtext .x-label-el{
+    z-index: 0;
+    padding-left: 5px;
+    background: transparent;
+    position: static;
+    color: #979DAC;
+}
+
+.wrkreqsum-overviewtext .x-body-el .x-input-el {
+    padding: 4px 0;
+    color: #33415C;
+}
+
+.wrksumcard-overview{
+    height:200px;
+    background: #EDF6FF;
+    width:100%;
+    padding: 5px;
+}
+
+.wrkreqsum-cardtitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.wrkreqsum-carddesc{
+    margin: 0px;
+}
+
+.wrkreqsum-carddesc .x-body-el{
+    background: #EDF6FF;
+    padding: 0px;
+}
+
+.wrkreqsum-carddesc .x-label-el{
+    padding-left: 0px;
+}
+
+.wrkreqsum-cardphone{
+    margin-left: auto;
+    margin-right: 10px;
+    color: #0073E6;
+    font-size: 28px;
+    height: 28px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.wrkreqsum-textarea .x-body-wrap-el{
+    height:50px;
+}
+
+.wrkreqsum-textarea .x-body-el{
+  height: 50px;
+  overflow: hidden;
+}
+
+.workreqtimeline .MuiTimelineItem-missingOppositeContent:before {
+    flex: 0 1;
+    padding: 6px;
+}
+
+.wrkreqtimeline,.wrkreqtimeline-lastitem{
+    position: relative;
+      padding-left: 20px;
+      margin: 0 0 0 30px;
+      color: white;
+      height: 60px;
+      width: 20px;
+  }
+  
+  .wrkreqtimeline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 60px;
+    background: #C9CDD6;
+  }
+  
+  .wrkreqtimeline-btnindicator{
+    height: 29px;
+    width: 48px;
+  }
+
+  .wrkreqtimeline-btnindicator .x-inner-el{
+    padding: 0px;
+  }
+
+  .wrkreqtimeline-btnindicator .x-body-el{
+    width: 40px;
+    height: 30px;
+  }
+  
+  .wrkreqtimeline-btnindicator.x-button .x-icon-el:before {
+    font-size: 28px;
+  }
+  
+  .wrkreqtimeline-historytitle{
+    margin: 7px 10px 0px 0px;
+    color: #33415C;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .wrkreqtimeline-username{
+    margin-left: 7px;
+    color: #33415C;
+    font-size: 13px;
+  }
+  
+  .wrkreqtimeline-date{
+    margin: 10px 7px;
+    color: #979DAC;
+    font-size: 12px;
+  }
+
+  .wrkreq_suggestedwo{
+    font-weight: 600;
+    font-size: 13px;
+    color: #33415C;    
+    margin: 15px auto 0px 10px;
+    height: 20px;
+  }
+
+  .wostatus-critical{
+    color: #FF3333;
+    background: rgba(246, 192, 199, 0.22);
+  }
+
+  .wostatus-progress{  
+    color: #33415C;
+    background: rgba(255, 168, 0, 0.31);
+  }
+
+  .wrkreq_suggestedwo_status{
+    border-radius: 100px;
+    margin: 10px 5px;
+    width: 80px;
+    font: 400 11px Lato Regular;
+    pointer-events: none;
+  }
+
+  .wrkreq_suggestedwo_status.x-button.x-has-text .x-inner-el{
+      padding: 5px;
+  }
+
+  .wrkreq_suggestedwo_shortdesc{
+    color: #33415C;
+    margin: 0px 10px;
+    font-size: 13px;
+  }
+
+  .wrkreq_suggestedwo_desc{
+    color: #7D8597;
+    margin: 5px 10px;
+    font-size: 13px;
+    line-height: 20px;
+    overflow: hidden;
+    max-height: 40px;
+  }
+
+  .wrkreq_suggestedwo_datecode{
+    color: #7D8597;
+    font: 400 12px Lato Regular;
+    width: 120px;
+    pointer-events: none;
+  }
+
+  .wrkreq_suggestedwo_datecode.x-button.x-has-text .x-inner-el{
+    padding: 5px 0px;
+  }
+
+  .wrkreq_suggestedwo_datecode .x-body-el{
+    margin: 5px 8px;
+  }
+
+  .wrkreq_suggestedwo_datecode .x-body-el .x-icon-el{
+    color: #7D8597;
+    font-size: 11px;
+  }
+
+  .wrkreq_suggestedwo_datecode.x-button .x-icon-el:before {
+    font-size: 14px;
+  }
+
+  .wrkreq-assigncontainer{
+    height: 40px;
+    border-top: 1px solid #E9EBEF;
+  }
+
+  .wrkreq_suggestedwo_assignwrbtn{
+    color: #0073E6;    
+    font: 600 12px Lato Regular;
+    float:right;
+  }
+
+/*--for wrkreq timeline --*/
+.nbicon-AP:before,.nbicon-APWO:before{
+  content: '\e101a';
+}
+
+.x-button .nbicon-AP,.x-button .nbicon-APWO{
+  color:#1BC54E;
+}
+
+.nbicon-C:before{
+  content: '\e101b';
+}
+
+.x-button .nbicon-C{
+  color: #E01E37;
+}
+
+.nbicon-CL:before{
+  content: '\e101c';
+}
+
+.x-button .nbicon-CL{
+  color: #7D8597;
+}
+
+.nbicon-CR:before, .nbicon-MP:before{
+  content: '\e101d';
+}
+
+.x-button .nbicon-CR, .x-button .nbicon-MP{
+  color: #0073E6;
+}
+
+.nbicon-FWT:before{
+  content: '\e101e';
+}
+
+.x-button .nbicon-FWT{
+  color: #8773FF;
+}
+
+.nbicon-M:before{
+  content: '\e101f';
+}
+
+.x-button .nbicon-M{
+  color:darkblue ;
+}
+
+.nbicon-RJ:before{
+  content: '\e1020';
+}
+
+.x-button .nbicon-RJ{
+  color: #FF5C00;
+}
+
+.nbicon-R:before{
+  content: '\e1021';
+}
+
+.x-button .nbicon-R{
+  color: darkgoldenrod;
+}
+
+.wrkreqsum-attachContainer{
+  display: flex;
+  padding: 14px;
+  background: transparent;
+  justify-content: center;
+}
+
+.wrkreqsum-attachContainer .x-body-el{
+  flex-wrap: wrap;
+}
+
+.wrkreqsum-attachdataview{
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.wrkreqsum-attachfilename{
+  text-align: center;
+}

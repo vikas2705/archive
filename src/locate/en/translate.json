@@ -1,0 +1,27 @@
+{
+  "request_no": "Request No",
+  "error": "Error",
+  "requestOn": "Request On",
+  "equipment": "Equipment",
+  "location": "Location",
+  "priority": "Priority",
+  "type":"Type",
+  "category": "Category",
+  "reportedDate": "Reported Date",
+  "reportedTime": "Reported Time",
+  "details": "Details",
+  "reportedProblem": "Reported Problem",
+  "equipmentCondition": "Equipment Condition",
+  "targetDate": "Target Date",
+  "targetTime": "Target Time",
+  "autoClose": "Auto Close?",
+  "reportedBy": "Reported By",
+  "workrequest": {
+    "create_title": "Create Work Request",
+    "edit_title": "Edit Work Request",
+    "wrInfo": "WR Info",
+    "detail": "Detail",
+    "attachment": "Attachment",
+    "create_success_title": "Work Request created"
+  }
+}
