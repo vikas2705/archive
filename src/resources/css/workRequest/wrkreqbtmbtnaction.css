@@ -1,0 +1,23 @@
+  .wrkreq_btmsec_btn3{
+    width: 40%;
+    border-right: 1px solid #E9EBEF;
+  }
+
+  .wrkreq_btmsec_btn2{
+    width: 30%;
+    color: #0073E6;
+  }
+
+  .wrkreq_btmsec_btn1{
+    width: 30%;
+    background: #0073E6;
+    color: #FFFFFF;
+  }
+
+  .onewrkreqlistaction{
+    width: 100vw;
+  }
+
+  .twowrkreqlistaction{
+    width: 50vw;
+  }

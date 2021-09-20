@@ -1,0 +1,91 @@
+{
+  "short_name": "Ramco EAM",
+  "name": "Ramco ERP-EAM",
+  "description": "Ramco ERP-Enterprise Assets Management",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#044c93",
+  "background_color": "#04a7ee",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Login Page",
+      "short_name": "Login",
+      "description": "Navigate to Login Page",
+      "url": "/pwa-app/signin",
+      "icons": [{ "src": "resources/icons/app/eam192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard Page",
+      "short_name": "Dashboard",
+      "description": "Dashboard page with overview of all work request status.",
+      "url": "/pwa-app/?dashboard",
+      "icons": [{ "src": "resources/icons/app/eam192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Debug Mode",
+      "short_name": "Debug",
+      "description": "Launch app in debug mode",
+      "url": "/pwa-app/?debug",
+      "icons": [{ "src": "resources/icons/app/eam192.png", "sizes": "192x192" }]
+    }
+  ],
+  "icons": [
+    {
+      "src": "resources/icons/app/eam16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/icons/app/eam32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/icons/app/eam96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/icons/app/eam_maskable_icon144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "resources/icons/app/eam144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "resources/icons/app/eam192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "resources/icons/app/eam512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "resources/icons/app/Home1x.jpg",
+      "sizes": "360x678",
+      "type": "image/jpg"
+    },
+    {
+      "src": "resources/icons/app/All_Work_Requests1x.jpg",
+      "sizes": "360x678",
+      "type": "image/jpg"
+    },
+    {
+      "src": "resources/icons/app/Work_Request_Details1x.jpg",
+      "sizes": "360x678",
+      "type": "image/jpg"
+    }
+  ]
+}

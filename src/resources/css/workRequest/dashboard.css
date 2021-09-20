@@ -1,0 +1,153 @@
+.rt-dashboard-outercontainer{
+    background:#E7F3FF;
+     height:92vh;
+}
+
+.dashboard_sec1_dataview {
+    height: 71px;
+    width: 50vw;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-width: 0.5px 0px 0.5px 0.25px;
+    border-color: rgb(201,205,214,0.5);
+    background: #F7FBFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.dshbrd_sec1_days{
+    font-family: 'Lato Regular';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: #0073E6;
+}
+
+.dshbrd_sec1_label{
+    font-family: 'Lato Regular';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7D8597;
+}
+
+.dashbrd_wrkreq_dataview{
+    margin: 15px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    width: 90vw;
+    border-radius: 10px;
+}
+
+.dashboard_sec2_dataview{
+    width: 45vw;
+    height: 120px;
+    padding: 25px;
+    text-align: center;
+    border: 0.5px solid #E9EBEF;
+    background: #FFFFFF;
+}
+
+.rtbutton-crtenwreq{
+    width: 65vw;
+    height:38px;
+    text-align: center;
+    margin: 20px 0px;
+    background: #0073E6;
+    border-radius: 4px;
+    color: #F0F0F0;
+    align-self: center;
+}
+
+.rtbutton-crtenwreq .x-inner-el .x-text-el{
+    font-weight: 700;
+}
+
+.x-button .x-inner-el .x-text-el{
+    text-transform: none;
+}
+
+.work_req_stsnum{
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    margin: auto;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.F{
+    color: #0073E6;
+}
+
+.AP{
+    color: #00AE50;
+}
+
+.FR{
+    color: #8873FF;
+}
+
+.RJ{
+    color: #FF5C00;
+}
+
+.C{
+    color: #E01E37;  
+}
+
+.CL{
+    color: #7D8597;
+}
+
+.work_req_stsname{
+    margin: 5px;
+    color: #33415C;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.dashbrd_btmsec{    
+    background: #FFFFFF;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    padding-left: 5px;
+}
+
+.dashbrd_wrkreq_dataview .x-body-el{
+    flex-wrap: wrap;
+}
+
+.dashbrd_btmsec_btns{
+    width: 25vw;
+    font-size: 12px;
+    color: #7D8597;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.dashbrd_btmsec_btns .x-inner-el .x-text-el{
+    white-space: break-spaces;
+    text-align: center;
+}
+
+.x-big .dashbrd_btmsec_btns.x-button .x-inner-el{
+    padding: 0px;
+ }
+
+ .dashbrd_btmsec_btns.more .x-inner-el .x-body-el{
+    margin: 10px;
+ }
+
+ .dashbrd_btmsec_btns .x-body-el .x-icon-el{
+    color:#5C677D;
+ }
+
+ .x-big .dashbrd_btmsec_btns.x-button .x-icon-el:before {
+    font-size:20px;
+}
+

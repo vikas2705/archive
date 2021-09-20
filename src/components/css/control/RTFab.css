@@ -1,0 +1,17 @@
+.rtfab-wrapper-designerCls{
+    position: absolute;
+    right: 50px;
+    bottom: 10%;
+    z-index: 10;    
+    height: 60px;
+    width: 60px;
+    background: #0073E6;
+    box-shadow: 0px 6px 6px rgb(0 0 0 / 20%);
+    border: 1px solid #0073E6;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.rtfab-wrapper-designerCls .x-inner-el .x-icon-el{
+    color: white;
+}
